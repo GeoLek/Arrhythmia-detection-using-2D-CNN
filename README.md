@@ -15,7 +15,10 @@ V = Ventricular ectopic beat. This beat originates from the ventricles (the lowe
 F = Fusion of ventricular and normal beat. A fusion beat occurs when a normal beat and an ectopic beat occur at the same time, causing a hybrid beat that has characteristics of both.
 Q = Unclassifiable beat. This label is used for beats that cannot be clearly classified into any of the other categories due to various reasons, such as poor signal quality or atypical patterns.
 
-# Our Minimal 2D CNN model achieved an accuracy of 98%
+# Accuracy = 98%
+
+![confusion_matrix](https://github.com/GeoLek/Arrhythmia-detection-using-2D-CNN/assets/89878177/fa42cec8-a5b1-4be2-af18-8d03c6b5d6ee)
+
 
 # My Dataset
 My working grayscale & processed dataset can be found on Kaggle: ()
