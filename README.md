@@ -4,8 +4,8 @@
 
 An endeavor to create an arrhythmia detection model using 2D CNN
 
-# Datasets
-2D ECG Images from Kaggle (https://www.kaggle.com/datasets/erhmrai/ecg-image-data?resource=download)
+# My Dataset
+My working grayscale & processed dataset can be found on my [Kaggle](https://www.kaggle.com/datasets/geolek/2d-ecg-grayscale-images)
 
 # Processing & Results
 All images were first resized (downscaled) to 224x224 dimensions and then were converted to grayscale. Then we augmented the images to balance the imbalanced class images. We classified the following signals:  <br>
@@ -17,14 +17,15 @@ Q = Unclassifiable beat. This label is used for beats that cannot be clearly cla
 
 # Accuracy = 98%
 
-# My Dataset
-My working grayscale & processed dataset can be found on Kaggle: (https://www.kaggle.com/datasets/geolek/2d-ecg-grayscale-images)
 
 ![Classification report](https://github.com/GeoLek/Arrhythmia-detection-using-2D-CNN/assets/89878177/a66bb1bc-6d7d-45ce-b67a-714afdeef9c2)
 
 
 ![confusion_matrix](https://github.com/GeoLek/Arrhythmia-detection-using-2D-CNN/assets/89878177/fa42cec8-a5b1-4be2-af18-8d03c6b5d6ee)
 
+
+# Source Dataset
+2D ECG Images from this Kaggle [repo](https://www.kaggle.com/datasets/erhmrai/ecg-image-data). 
 
 # LICENSE
 This project is licensed under the Apache License - see the [LICENSE](https://github.com/GeoLek/Arrhythmia-detection-using-2D-CNN/blob/main/LICENSE) file for details.
