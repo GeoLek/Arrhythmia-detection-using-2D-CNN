@@ -17,6 +17,9 @@ Q = Unclassifiable beat. This label is used for beats that cannot be clearly cla
 
 # Accuracy = 98%
 
+![Classification report](https://github.com/GeoLek/Arrhythmia-detection-using-2D-CNN/assets/89878177/a66bb1bc-6d7d-45ce-b67a-714afdeef9c2)
+
+
 ![confusion_matrix](https://github.com/GeoLek/Arrhythmia-detection-using-2D-CNN/assets/89878177/fa42cec8-a5b1-4be2-af18-8d03c6b5d6ee)
 
 
