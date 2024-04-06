@@ -8,7 +8,7 @@ An endeavor to create an arrhythmia detection model using 2D CNN
 2D ECG Images from Kaggle (https://www.kaggle.com/datasets/erhmrai/ecg-image-data?resource=download)
 
 # Processing & Results
-All images were first resized (downscaled) to 224x224 dimensions and then were converted to grayscale. We classified the following signals:  <br>
+All images were first resized (downscaled) to 224x224 dimensions and then were converted to grayscale. Then we augmented the iamges to balance the imbalanced class images. We classified the following signals:  <br>
 N = Normal beat. This type is used for normal heartbeats. <br>
 S = Supraventricular ectopic beat. This type of beat originates from the atria (the upper chambers of the heart) but outside the sinoatrial node (the natural pacemaker of the heart), causing an irregular heartbeat. <br>
 V = Ventricular ectopic beat. This beat originates from the ventricles (the lower chambers of the heart) and is considered a premature beat. <br>
